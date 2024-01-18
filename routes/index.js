@@ -1,5 +1,5 @@
 import express from 'express';
-import { 
+import {
     paginaInicio, 
     paginaNosotros, 
     paginaViajes, 
@@ -7,7 +7,7 @@ import { 
     paginaDetalleViaje 
 } from '../controllers/paginasController.js';
 
-import { guardarTestimonial } from '../controllers/testimonialesController.js';
+import { guardarTestimonial } from '../controllers/testimonialesController.js';
 
 const router = express.Router();
 
