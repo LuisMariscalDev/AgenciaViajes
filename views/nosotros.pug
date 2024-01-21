@@ -3,4 +3,31 @@ extends ./layout/index
 block contenido
     main.container.mt-5
         .row
-            h1= pagina
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote  Bienvenido a Omar Travel's, tu puerta de entrada a las maravillas del océano y las playas espectaculares de Puerto Vallarta. En nuestra embarcación, no solo te ofrecemos destinos; te invitamos a sumergirte en experiencias únicas, a construir recuerdos que se tejerán en la brisa marina y a diseñar momentos que quedarán grabados en tu corazón.
+
+                p Nuestro equipo está formado por apasionados navegantes locales, conocedores de cada rincón especial que Puerto Vallarta tiene para ofrecer. Estamos aquí para hacer realidad tus sueños de explorar playas paradisíacas como Yelapa, Quimixto, Colomitos. Nos enorgullece ofrecer un servicio personalizado, adaptado a tus deseos y necesidades, para que cada viaje con Omar Travel's sea una experiencia única.
+
+                p En Omar Travel's, no solo somos capitanes de una embarcación; somos narradores de historias marítimas, embajadores de la belleza natural y creadores de momentos inolvidables. Únete a nosotros en esta aventura inigualable, donde cada travesía es un capítulo nuevo esperando a ser descubierto.
+
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Seguridad inquebrantable en cada travesía. Con Omar Travel's, disfruta de la emoción del viaje con total tranquilidad.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Destinos
+                    p Explora destinos exclusivos donde la belleza natural y la riqueza cultural se entrelazan. Sumérgete en aguas cristalinas, explora playas vírgenes y vive momentos inolvidables con Omar Travel's.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Descubre los precios más competitivos en Omar Travel's. Explora destinos únicos a tarifas irresistibles y haz realidad tus sueños de viaje con nosotros.
