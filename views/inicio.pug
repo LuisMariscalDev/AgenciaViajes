@@ -1,6 +1,16 @@
 extends ./layout/index
 
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
 block contenido
     main.container.mt-5
-        .row
-            h1= pagina
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col.-md-6
+                p Explora la costa de Puerto Vallarta con Omar Travel's y descubre playas como Yelapa, Quimixto, Caletas, Majahuitas y Colomitos. Sumérgete en aguas cristalinas, disfruta de la belleza natural y conéctate con la cultura local. En cada viaje, creamos recuerdos excepcionales que te acompañarán toda la vida
+                p Bienvenido a Omar Travel's, donde transformamos tus sueños de viaje en experiencias inolvidables. Nuestro equipo de viajeros apasionados está listo para diseñar la escapada perfecta para ti. ¿Buscas relajación en playas tranquilas o emocionantes aventuras en el mar? Únete a nosotros y descubre lo mejor de Puerto Vallarta desde una perspectiva única.
+            .col.-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
