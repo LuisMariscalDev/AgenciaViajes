@@ -5,7 +5,7 @@ const paginaInicio = async (req, res) => {
 
     // Consultar 3 viajes del modelo Viaje
 
-    const promiseDB = [];
+    const promiseDB = []; // este arreglo guarda dos consultas para que se hagan al mismo tiempo
 
     promiseDB.push(Viaje.findAll({ limit : 3}));
     promiseDB.push(Testimonial.findAll({ limit : 3}));
