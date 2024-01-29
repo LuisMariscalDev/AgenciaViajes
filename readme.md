@@ -16,7 +16,7 @@ La Agencia de Viajes ofrece a los usuarios información detallada sobre diferent
 
 ## Instrucciones de Instalación
 
-1. Clona este repositorio: `git clone https://github.com/LuisMariscalDev/AgenciaViajes.git
+1. Clona este repositorio: `git clone https://github.com/LuisMariscalDev/AgenciaViajes.git`
 2. Instala las dependencias: `npm install`
 3. Configura la base de datos en el archivo `.env`.
 4. Ejecuta la aplicación: `npm run dev`
